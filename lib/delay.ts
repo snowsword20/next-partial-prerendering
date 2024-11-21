@@ -1,7 +1,7 @@
 // Times are in milliseconds
-export const delayShippingEstimate = 200;
-export const delayRecommendedProducts = 500;
-export const delayReviews = 600;
+export const delayShippingEstimate = 3200;
+export const delayRecommendedProducts = 5500;
+export const delayReviews = 6000;
 
 export async function withDelay<T>(
   promise: Promise<T>,
